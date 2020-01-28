@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import Services from "../Services";
 import Header from "../Header";
 
-import data from "./data.json";
+import data from "../../data.json";
 
 const App = () => {
 

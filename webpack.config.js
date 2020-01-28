@@ -64,6 +64,7 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
+        open: true,
     },
     plugins: [
         new ExtractTextPlugin({ filename: 'index.css' }),

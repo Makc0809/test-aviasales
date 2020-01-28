@@ -4,3 +4,7 @@
   background-color: #E5E5E5;
 }
 
+.btn.btn-primary {
+  background-color: #0085FF!important;
+  border-color: #0085FF!important;
+}

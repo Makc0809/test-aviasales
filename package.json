@@ -14,11 +14,8 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "webpack-dev-server --mode development"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,7 +46,6 @@
     "html-webpack-plugin": "latest",
     "react-svg-loader": "^3.0.3",
     "style-loader": "^1.1.3",
-    "svg-inline-loader": "^0.8.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
