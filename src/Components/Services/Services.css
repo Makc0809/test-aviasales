@@ -1,0 +1,29 @@
+.header-page {
+    font-family: Rubik, Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 46px;
+}
+
+.filterTop .col-btn {
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+.filterTop .col-btn .btn.btn-light {
+    display: block;
+}
+
+
+@media (min-width: 768px) {
+
+
+    .filterTop .col-btn .btn.btn-light {
+        display: inline-block;
+    }
+
+    .filterTop .col-btn {
+        padding-top: 2rem;
+    }
+}

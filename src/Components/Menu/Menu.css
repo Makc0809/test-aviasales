@@ -1,0 +1,15 @@
+.myMenu {
+
+}
+
+.myMenu--item {
+    padding: 1.5rem !important;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.myMenu--item:hover svg path {
+    transition: all 0.7s ease;
+    fill: #FFFFFF;
+}

@@ -1,0 +1,25 @@
+.card {
+    min-height: 120px;
+}
+
+
+.myInput {
+    position: relative;
+}
+
+.myInput input {
+    position: relative;
+    z-index: 1;
+    background-color: white!important;
+}
+.myInput .copy-code {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    right: 1rem;
+    bottom: 0.8rem;
+}
+
+.card-body .col-btn {
+    padding-top: 30px;
+}

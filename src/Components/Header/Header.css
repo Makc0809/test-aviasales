@@ -1,0 +1,20 @@
+.main-header {
+  min-height: 80px;
+}
+
+.col-info .text-small {
+  font-size: 13px;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+
+  color: #7D7D7D;
+}
+
+.col-info .text-value {
+  font-family: Rubik, Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 26px;
+}
