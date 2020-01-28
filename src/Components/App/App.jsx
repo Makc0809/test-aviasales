@@ -65,7 +65,7 @@ const App = () => {
                         </ul>
                     </div>
                 </nav>}
-                <Services data={param.bonuses}/>
+                { param.bonuses && <Services data={param.bonuses}/> }
             </div>
 
 

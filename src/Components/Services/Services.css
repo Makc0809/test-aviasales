@@ -13,6 +13,7 @@
 
 .filterTop .col-btn .btn.btn-light {
     display: block;
+    width: inherit;
 }
 
 
@@ -20,7 +21,8 @@
 
 
     .filterTop .col-btn .btn.btn-light {
-        display: inline-block;
+        display: block;
+        width: initial;
     }
 
     .filterTop .col-btn {

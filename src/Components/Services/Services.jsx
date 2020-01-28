@@ -9,12 +9,8 @@ const Services = ({data = []}) => {
     const [filterValue, setFilterValue] = useState('');
     const [filteredData, setFiltredData] = useState(data);
 
-    if (filteredData.length === 0 && data.length > 0 && filterValue === "") {
-        // время 00:00, чет сходу не пришло в голову как решить это, по этому пока костыль)))
-        setFiltredData(data);
-    }
-
     const handleChange = (event) => {
+        console.log(event.target.value);
         setFilterValue(event.target.value);
 
 
@@ -49,7 +45,7 @@ const Services = ({data = []}) => {
                 </div>
 
                 <div className="col col-btn">
-                    <a href="#" className="btn btn-light btn-lg" onClick={clearFilter}>Сбросить</a>
+                    <button className="btn btn-light btn-lg" onClick={clearFilter} disabled={!filterValue}>Сбросить</button>
                 </div>
             </div>
 
